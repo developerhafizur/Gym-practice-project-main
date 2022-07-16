@@ -1,13 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Gym</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="menubar">
+        <div class="logo">
+          <img src="/images/fitness-gym-logo.png" alt="" />
+        </div>
+        <div class="menu-items">
+          <li>Home</li>
+          <li>About</li>
+          <li>Service</li>
+          <li>Contact</li>
+        </div>
+      </div>
+    </nav>
+    <!--end-->
+    <div class="home-container">
+      <div class="home">
+        <div class="left-side-content">
+          <svg viewbox="0 0 300 20">
+            <defs>
+              <linearGradient id="gradient">
+                <stop color="#000" />
+              </linearGradient>
+              <pattern
+                id="wave"
+                x="0"
+                y="-0.5"
+                width="100%"
+                height="100%"
+                patternUnits="userSpaceOnUse"
+              >
+                <path
+                  id="wavePath"
+                  d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z"
+                  mask="url(#mask)"
+                  fill="url(#gradient)"
+                >
+                  <animateTransform
+                    attributeName="transform"
+                    begin="0s"
+                    dur="1.5s"
+                    type="translate"
+                    from="0,0"
+                    to="40,0"
+                    repeatCount="indefinite"
+                  />
+                </path>
+              </pattern>
+            </defs>
+            <text
+              text-anchor="middle"
+              x="50"
+              y="15"
+              font-size="17"
+              fill="white"
+              fill-opacity="0.1"
+            >
+              Fitness power
+            </text>
+            <text
+              text-anchor="middle"
+              x="50"
+              y="15"
+              font-size="17"
+              fill="url(#wave)"
+              fill-opacity="1"
+            >
+              Fitness power
+            </text>
+          </svg>
+
+          <h1>A Reason of Your Health Join Today</h1>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta ea
+            tenetur commodi accusantium ipsam voluptatibus illo accusamus at.
+          </p>
+          <button class="learn-btn">
+            Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="right-side-content">
+          <div class="home-image">
+            <img src="./images/home-bg.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="package-description">
+      <span>Our Program</span>
+      <h2>Build Your best body</h2>
+
+<div class="package-card">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
 
 
 
@@ -29,8 +145,6 @@
 
 
 
-
-
-    
-</body>
+    </div>
+  </body>
 </html>
