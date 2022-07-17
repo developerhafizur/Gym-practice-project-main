@@ -82,3 +82,128 @@ svg{
 }
 
 /**end**/
+
+.about-us{
+  background-color: rgba(179, 173, 173, 0.623);
+}
+.about-container{
+width: 90%;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 24px 0;
+
+}
+.about-us-heading{
+  text-align: center;
+  font-weight: bold;
+}
+.about-us-heading h2{
+font-size: 30px;
+margin-bottom: 10px;
+}
+.about-us-article{
+  display: flex;
+  align-items: center;
+}
+
+.about-us-details{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+ 
+}
+.au-details-block{
+  border-left: 5px solid rgb(72, 72, 177);
+  padding: 10px;
+  width: 80%;
+  
+}
+.au-details-block h4{
+ font-weight: bold;
+
+}
+.au-details-block h4, p{
+margin-bottom: 15px;
+}
+
+
+.au-button{
+  text-decoration: none;
+  padding: 15px;
+  width: 35%;
+  border-radius: 4%;
+  background-color: #fff;
+  text-align: center;
+  color: black;
+}
+.au-button:hover{
+  background-color: rgb(127, 251, 255);
+ 
+}
+.about-us-img img{
+  width: 100%;
+}
+/**end**/
+.service-section{
+  background-color: rgba(77, 38, 38, 0.418);
+
+  
+}
+.service-container{
+  width: 90%;
+  margin: auto;
+
+}
+.service-heading{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
